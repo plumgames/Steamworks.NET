@@ -8,7 +8,7 @@ public sealed class EditorSteamworksNETSettings : ScriptableObject
 
     [Tooltip("When enabled, the Steamworks.NET package will add the necessary define symbols to your project.")]
     [SerializeField]
-    private bool canManageDefineSymbols = true;
+    private bool canManageDefineSymbols = false;
 
     public bool CanManageDefineSymbols
     {
